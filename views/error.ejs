@@ -66,11 +66,20 @@
   </header>
   
 
+  <div class="container mt-5">
+    <h1><%= message %></h1>
+    <h2><%= error.status %></h2>
+    <pre><%= error.stack %></pre>
+  </div>
 
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
 
+  <footer>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+      <h6 class="display-6 navbar-text">&copy; Copyright <%= new Date().getFullYear();%> All Rights Reserved</h6>
+    </nav>
+  </footer>
+
+  
     <!-- JS SCRIPTS -->
     <script src="/jquery/dist/jquery.min.js"></script>
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
