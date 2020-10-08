@@ -13,12 +13,12 @@ router.get('/home', function(req, res, next) {
 
 /* GET home page. */
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About Us' });
+  res.render('about', { title: 'About' });
 });
 
 /* GET home page. */
-router.get('/products', function(req, res, next) {
-  res.render('products', { title: 'Products' });
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects' });
 });
 
 /* GET home page. */
@@ -28,7 +28,7 @@ router.get('/services', function(req, res, next) {
 
 /* GET home page. */
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact Us' });
+  res.render('contact', { title: 'Contact' });
 });
 
 module.exports = router;
