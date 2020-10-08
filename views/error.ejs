@@ -65,12 +65,15 @@
     </nav>
   </header>
   
-<%- include partials/main_nav.ejs %>  
+
 
 <h1><%= message %></h1>
 <h2><%= error.status %></h2>
 <pre><%= error.stack %></pre>
 
-<%- include partials/bottom_nav.ejs %>  
-
-<%- include partials/footer.ejs %>
+    <!-- JS SCRIPTS -->
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>
